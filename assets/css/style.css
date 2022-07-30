@@ -1,0 +1,112 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #12394a;
+  color: #f0aa20;
+}
+
+nav h1 {
+  background-color:#fff;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 6px;
+
+}
+
+nav div a {
+text-decoration: none;
+margin: 12px;
+padding: 5px;
+border: 2px solid transparent;
+color: #ebb13a;
+}
+
+nav div a:hover {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 2px black;
+}
+
+.image {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #d83e3e;
+}
+
+.image img {
+  width: 200px;
+  border-radius: 10% 25% 10% 25%;
+  box-shadow: 20px 20px 10px darkgray;
+  border: 1px solid black;
+}
+
+.image p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+h3 { 
+  background-color: #ebb13a;
+  font-style: italic;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.aboutMe p {
+  justify-content: center;
+ margin-bottom: 5%;
+ margin-left: 12%;
+ margin-right: 12%;
+}
+
+.work {
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.contactInfo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 8% 12%
+}
+
+.resume {
+  align-items: right;
+  margin-top: 8%;
+  margin-bottom: 11%;
+  margin-left: 44%;
+  margin-right: 44%;
+}
+
+h3 .work {
+  position: relative;
+  width: 600px;
+  height: 150px;
+  margin: 120px auto;
+}
+
+h3 .work .box {
+  position: relative;
+  width: calc(200px-20px);
+  height: calc(200px-20px);
+  background: #000;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
