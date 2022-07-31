@@ -37,19 +37,36 @@ nav div a:hover {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  color: #d83e3e;
+  justify-content: center;
+  background-image: url(/assets/images/backgroundpic.jpeg);
+  background-size: cover;
 }
 
 .image img {
   width: 200px;
   border-radius: 10% 25% 10% 25%;
-  box-shadow: 20px 20px 10px darkgray;
+  box-shadow: 10px 10px 10px rgb(60, 59, 59);
   border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .image p {
   font-style: italic;
-  font-weight: bold;
+  font-weight: bolder;
+  color: #d83e3e;
+  font-size: large;
+  background-color: white;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 6px;
+  width: 250px;
+  border-radius: 25% 25% 25% 25%;
+  box-shadow: 10px 10px 10px rgb(60 59 59);
+  border: 1px solid black;
+  align-items: center;
+  flex: wrap;
+  justify-content: center;
 }
 
 h3 { 
