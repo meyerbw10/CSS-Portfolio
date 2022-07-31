@@ -36,10 +36,11 @@ nav div a:hover {
 .image {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
-  justify-content: center;
   background-image: url(/assets/images/backgroundpic.jpeg);
   background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .image img {
@@ -86,19 +87,14 @@ h3 {
  margin-left: 12%;
  margin-right: 12%;
 }
-
-.work {
-  justify-content: center;
-  margin-bottom: 5%;
-  margin-left: 12%;
-  margin-right: 12%;
-}
+  
 
 .contactInfo {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 8% 12%
+  margin: 8% 12%;
+  flex-wrap: wrap;
 }
 
 .resume {
@@ -109,21 +105,25 @@ h3 {
   margin-right: 44%;
 }
 
-h3 .work {
-  position: relative;
-  width: 600px;
-  height: 150px;
-  margin: 120px auto;
+div {
+  justify-content: center;
+  text-align: center;
 }
 
-h3 .work .box {
-  position: relative;
-  width: calc(200px-20px);
-  height: calc(200px-20px);
-  background: #000;
-  float: left;
-  margin: 15px;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-radius: 10px;
+div button {
+ height: 375px;
+ width: 450px;
 }
+div .buttonone {
+  color: red;
+}
+
+div .buttontwo {
+  color: blue;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
