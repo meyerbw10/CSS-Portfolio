@@ -110,20 +110,43 @@ div {
   text-align: center;
 }
 
-div button {
- height: 375px;
- width: 450px;
-}
-div .buttonone {
+
+div .buttontwo:hover {
   color: red;
+  background-color: yellow;
+  background-image: url(/assets/images/myhouse.jpeg);
+  cursor: alias;
+}
+
+div .buttonone:hover {
+  color: red;
+  background-color: yellow;
+  background-image: url(/assets/images/myprojects.png);
+  cursor: alias;
+}
+
+div .buttonone {
+  color: black;
+  background-size: cover;
+  height: 375px;
+  width: 450px;
 }
 
 div .buttontwo {
-  color: blue;
+  color: black;
+  height: 275px;
+  width: 350px;
+  background-size: cover;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (max-width: 850px) {
+  ul {
+    flex-direction: column;
+  }
 }
 
+@media screen and (max-width: 850px) {
+  nav div a {
+    flex-direction: column;
+  }
+}
