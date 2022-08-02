@@ -36,7 +36,7 @@ nav div a:hover {
 .image {
   width: 100%;
   margin: 0 auto;
-  background-image: url(/assets/images/backgroundpic.jpeg);
+  background-image: url(../images/backgroundpic.jpeg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -111,33 +111,33 @@ div {
 }
 
 
-div .buttontwo:hover {
-  color: red;
-  background-color: yellow;
-  background-image: url(./assets/images/myhouse.jpeg);
-  cursor: alias;
-}
-
-div .buttonone:hover {
-  color: red;
-  background-color: yellow;
-  background-image: url(./assets/images/myprojects.png);
-  cursor: alias;
-}
-
-div .buttonone {
+.buttonone {
   color: black;
   background-size: cover;
   height: 375px;
   width: 450px;
 }
 
-div .buttontwo {
+.buttontwo {
   color: black;
   height: 275px;
   width: 350px;
   background-size: cover;
+
 }
+
+div .buttontwo:hover {
+  color: red;
+  background-image: url(../images/myhouse.jpeg);
+  cursor: alias;
+}
+
+div .buttonone:hover {
+  color: red;
+  background-image: url(../images/myprojects.png);
+  cursor: alias;
+}
+
 
 @media screen and (max-width: 850px) {
   ul {
