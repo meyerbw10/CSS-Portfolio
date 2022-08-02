@@ -114,14 +114,14 @@ div {
 div .buttontwo:hover {
   color: red;
   background-color: yellow;
-  background-image: url(/assets/images/myhouse.jpeg);
+  background-image: url(./assets/images/myhouse.jpeg);
   cursor: alias;
 }
 
 div .buttonone:hover {
   color: red;
   background-color: yellow;
-  background-image: url(/assets/images/myprojects.png);
+  background-image: url(./assets/images/myprojects.png);
   cursor: alias;
 }
 
