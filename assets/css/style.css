@@ -120,15 +120,15 @@ div {
 
 .buttontwo {
   color: black;
-  height: 275px;
-  width: 350px;
   background-size: cover;
+  height: 375px;
+  width: 450px;
 
 }
 
 div .buttontwo:hover {
   color: red;
-  background-image: url(../images/myhouse.jpeg);
+  background-image: url(../images/photo1.png);
   cursor: alias;
 }
 
